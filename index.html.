@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخطابة أم سلطان</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 3px solid #e74c3c;
+            padding-bottom: 15px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        ul {
+            margin-right: 25px;
+            margin-bottom: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.05rem;
+        }
+        .contact-btn {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .contact-btn:hover {
+            background-color: #c0392b;
+        }
+        .section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.4rem; }
+            .container { padding: 20px 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>الخطابة أم سلطان</h1>
+        
+        <div class="section">
+            <h2>عن الموقع</h2>
+            <p>هذه المنصة مخصصة للراغبين في الزواج الجاد فقط، وفق القيم والأخلاق. لا نقبل أي نوع من العلاقات غير الجادة، ولا توجد دردشات مفتوحة أو محتوى ترفيهي.</p>
+            <a href="https://wa.me/966591307831" class="contact-btn" target="_blank">تواصل معنا</a>
+        </div>
+
+        <div class="section">
+            <h2>سياسة الخصوصية</h2>
+            <p>نلتزم بالحفاظ على خصوصية جميع المستخدمين. لا يتم مشاركة أي بيانات شخصية مع أطراف خارجية. جميع المعلومات محفوظة بشكل آمن وتستخدم فقط لتسهيل عملية التوفيق بين الطرفين.</p>
+            <a href="https://wa.me/966591307831" class="contact-btn" target="_blank">تواصل معنا</a>
+        </div>
+
+        <div class="section">
+            <h2>الشروط والأحكام</h2>
+            <ul>
+                <li>الموقع مخصص فقط للباحثين عن الزواج الجاد.</li>
+                <li>يُمنع استخدام المنصة لأي غرض آخر غير شرعي أو ترفيهي.</li>
+                <li>نحتفظ بحق حذف أي حساب ينتهك القواعد أو يسيء الاستخدام.</li>
+                <li>باستخدامك للمنصة، فإنك توافق على الشروط وسياسة الخصوصية.</li>
+            </ul>
+            <a href="https://wa.me/966591307831" class="contact-btn" target="_blank">تواصل معنا</a>
+        </div>
+
+        <footer>
+            جميع الحقوق محفوظة © 2026
+        </footer>
+    </div>
+</body>
+</html>
+<!-- زر واتساب دائري صحيح -->
+<a href="https://wa.me/966591307831" 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener">
+
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="30" height="30" fill="white">
+      <path d="M16 .5C7.6.5.8 7.3.8 15.7c0 2.7.7 5.2 2 7.5L.5 31.5l8.6-2.2c2.2 1.2 4.6 1.8 7 1.8 8.4 0 15.2-6.8 15.2-15.2S24.4.5 16 .5zm0 27.6c-2.1 0-4.1-.6-5.9-1.6l-.4-.2-5.1 1.3 1.4-5-.3-.5c-1.2-1.9-1.8-4.1-1.8-6.3C3.9 9 9.3 3.6 16 3.6S28.1 9 28.1 15.7 22.7 28.1 16 28.1zm7.2-9.8c-.4-.2-2.3-1.1-2.7-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.2-.8.1-.4-.2-1.7-.6-3.2-2-.8-.7-1.4-1.6-1.6-1.9-.2-.3 0-.5.2-.7.2-.2.4-.5.6-.7.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6 0-.2-.9-2.1-1.2-2.9-.3-.7-.6-.6-.9-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.1 3.2 1.3 3.4c.2.2 2.3 3.5 5.5 5 2 .9 2.7 1 3.7.9.6-.1 1.7-.7 2-1.3.3-.6.3-1.2.2-1.3-.1-.1-.3-.2-.7-.4z"/>
+   </svg>
+
+</a>
+
+<style>
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #1ebe5d;
+}
+</style>
