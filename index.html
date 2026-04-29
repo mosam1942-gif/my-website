@@ -1,30 +1,26 @@
-<!DOCTYPE html>
+html_code = """<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الخطابة أم سلطان</title>
-
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f5f5f5;
             color: #333;
             line-height: 1.8;
         }
-
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
         }
-
         h1 {
             font-size: 2.5rem;
             color: #2c3e50;
@@ -33,41 +29,39 @@
             border-bottom: 3px solid #e74c3c;
             padding-bottom: 15px;
         }
-
         h2 {
             font-size: 1.8rem;
             color: #34495e;
             margin-top: 40px;
             margin-bottom: 15px;
         }
-
         p {
             font-size: 1.1rem;
             margin-bottom: 20px;
             text-align: justify;
         }
-
         ul {
             margin-right: 25px;
             margin-bottom: 20px;
         }
-
         ul li {
             margin-bottom: 10px;
             font-size: 1.05rem;
         }
-
         .contact-btn {
             display: inline-block;
-            background-color: #25D366;
+            background-color: #e74c3c;
             color: white;
             padding: 12px 30px;
             text-decoration: none;
             border-radius: 5px;
             font-size: 1.1rem;
             margin-top: 15px;
+            transition: background-color 0.3s;
         }
-
+        .contact-btn:hover {
+            background-color: #c0392b;
+        }
         .section {
             background-color: white;
             padding: 30px;
@@ -75,7 +69,6 @@
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -83,22 +76,6 @@
             font-size: 0.9rem;
             margin-top: 30px;
         }
-
-        /* زر واتساب العائم */
-        .whatsapp-float {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            background-color: #25D366;
-            color: white;
-            border-radius: 50px;
-            padding: 12px 18px;
-            font-size: 16px;
-            text-decoration: none;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            z-index: 1000;
-        }
-
         @media (max-width: 600px) {
             h1 { font-size: 1.8rem; }
             h2 { font-size: 1.4rem; }
@@ -106,50 +83,36 @@
         }
     </style>
 </head>
-
 <body>
+    <div class="container">
+        <h1>الخطابة أم سلطان</h1>
+        
+        <div class="section">
+            <h2>عن الموقع</h2>
+            <p>هذه المنصة مخصصة للراغبين في الزواج الجاد فقط، وفق القيم والأخلاق. لا نقبل أي نوع من العلاقات غير الجادة، ولا توجد دردشات مفتوحة أو محتوى ترفيهي.</p>
+            <a href="https://wa.me/966591307831" class="contact-btn" target="_blank">تواصل معنا</a>
+        </div>
 
-<div class="container">
-    <h1>الخطابة أم سلطان</h1>
+        <div class="section">
+            <h2>سياسة الخصوصية</h2>
+            <p>نلتزم بالحفاظ على خصوصية جميع المستخدمين. لا يتم مشاركة أي بيانات شخصية مع أطراف خارجية. جميع المعلومات محفوظة بشكل آمن وتستخدم فقط لتسهيل عملية التوفيق بين الطرفين.</p>
+            <a href="https://wa.me/966591307831" class="contact-btn" target="_blank">تواصل معنا</a>
+        </div>
 
-    <div class="section">
-        <h2>عن الموقع</h2>
-        <p>هذه المنصة مخصصة للراغبين في الزواج الجاد فقط، وفق القيم والأخلاق.</p>
-        <a href="https://wa.me/966591307831?text=السلام%20عليكم%20أرغب%20في%20الزواج" class="contact-btn">
-            تواصل واتساب
-        </a>
+        <div class="section">
+            <h2>الشروط والأحكام</h2>
+            <ul>
+                <li>الموقع مخصص فقط للباحثين عن الزواج الجاد.</li>
+                <li>يُمنع استخدام المنصة لأي غرض آخر غير شرعي أو ترفيهي.</li>
+                <li>نحتفظ بحق حذف أي حساب ينتهك القواعد أو يسيء الاستخدام.</li>
+                <li>باستخدامك للمنصة، فإنك توافق على الشروط وسياسة الخصوصية.</li>
+            </ul>
+            <a href="https://wa.me/966591307831" class="contact-btn" target="_blank">تواصل معنا</a>
+        </div>
+
+        <footer>
+            جميع الحقوق محفوظة © 2026
+        </footer>
     </div>
-
-    <div class="section">
-        <h2>سياسة الخصوصية</h2>
-        <p>نلتزم بالحفاظ على خصوصية جميع المستخدمين وعدم مشاركة البيانات.</p>
-        <a href="https://wa.me/966591307831?text=السلام%20عليكم%20استفسار" class="contact-btn">
-            تواصل واتساب
-        </a>
-    </div>
-
-    <div class="section">
-        <h2>الشروط والأحكام</h2>
-        <ul>
-            <li>الموقع للزواج الجاد فقط.</li>
-            <li>يمنع أي استخدام غير لائق.</li>
-            <li>نحتفظ بحق حذف أي حساب مخالف.</li>
-        </ul>
-        <a href="https://wa.me/966591307831?text=السلام%20عليكم%20أرغب%20في%20التسجيل" class="contact-btn">
-            تواصل واتساب
-        </a>
-    </div>
-
-    <footer>
-        جميع الحقوق محفوظة © 2026
-    </footer>
-</div>
-
-<!-- زر واتساب عائم -->
-<a href="https://wa.me/966591307831?text=السلام%20عليكم%20أرغب%20في%20الزواج"
-   class="whatsapp-float">
-   واتساب
-</a>
-
 </body>
-</html>
+</html>"""
